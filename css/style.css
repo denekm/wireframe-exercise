@@ -9,23 +9,21 @@ header {
 
 header img {
     margin-bottom: 0cm;
-    ;
 }
 
 nav {
     margin: 1rem auto;
     width: 960px;
     display: flex;
-
-    
     align-items: center;
 }
 
 li {
     display: inline;
-    margin-left: 20px 
-    
+    margin-left: 80px;
+    text-decoration: none;
 }
+
 main {
     margin: 30px auto 0;
     width: 960px;
@@ -58,4 +56,15 @@ article {
 article section {
     height: 320px;
     overflow: auto;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+article > a {
+    background-color: black;
+    padding: 0.15rem 0.25rem;
+    color: white;
 }
